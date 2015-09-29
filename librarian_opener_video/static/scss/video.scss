@@ -1,5 +1,9 @@
-.opener-frame {
-  .mejs-container button {
-    min-width: auto;
-  }
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.mejs-container button {
+  min-width: auto;
 }
