@@ -6,7 +6,7 @@ from librarian_content.decorators import with_meta
 from librarian_core.contrib.templates.renderer import view
 
 
-@view('video')
+@view('openers/video')
 @with_meta(abort_if_not_found=False)
 def video_opener(path, meta):
     if not meta:

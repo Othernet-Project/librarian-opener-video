@@ -1,9 +1,15 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+@import "mediaelement";
+
+#opener-main-video {
+  // Basic geometry
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+
+  video {
     width: 100%;
-}
-.mejs-container button {
-  min-width: auto;
+    height: 100%;
+  }
 }
