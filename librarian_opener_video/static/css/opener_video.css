@@ -1125,8 +1125,24 @@ div.mejs-speed-button {
   width: 100%;
   background: black;
 }
-/* line 11, ../../../src/scss/opener_video.scss */
-#opener-main-video video {
+
+/* line 12, ../../../src/scss/opener_video.scss */
+.mejs-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* line 16, ../../../src/scss/opener_video.scss */
+.mejs-container .mejs-inner {
+  width: 100%;
+  height: 100%;
+}
+/* line 21, ../../../src/scss/opener_video.scss */
+.mejs-container .mejs-overlay {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* line 26, ../../../src/scss/opener_video.scss */
+.mejs-container video {
   width: 100%;
   height: 100%;
 }
