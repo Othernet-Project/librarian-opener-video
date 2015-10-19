@@ -1,0 +1,12 @@
+/* line 1, ../../../src/scss/opener_video.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 7, ../../../src/scss/opener_video.scss */
+.mejs-container button {
+  min-width: auto;
+}
